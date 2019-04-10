@@ -12,14 +12,8 @@ public class ExampleController {
         return "hello docker";
     }
 
-
-    @GetMapping("/docker1")
-    public String docker1() {
-        return "hello docker1";
-    }
-
-    @GetMapping("/docker2")
-    public String docker2() {
-        return "hello docker2";
+    @GetMapping("/docker3")
+    public String docker3() {
+        return "hello docker3";
     }
 }
