@@ -11,4 +11,10 @@ public class ExampleController {
     public String docker() {
         return "hello docker";
     }
+
+
+    @GetMapping("/docker1")
+    public String docker1() {
+        return "hello docker1";
+    }
 }
