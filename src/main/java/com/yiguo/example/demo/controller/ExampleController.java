@@ -16,4 +16,9 @@ public class ExampleController {
     public String docker3() {
         return "hello docker3";
     }
+
+    @GetMapping("/docker4")
+    public String docker4() {
+        return "hello docker4";
+    }
 }
